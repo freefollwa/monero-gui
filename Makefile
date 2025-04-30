@@ -1,5 +1,5 @@
 ANDROID_STANDALONE_TOOLCHAIN_PATH ?= /usr/local/toolchain
-MANUAL_SUBMODULES ?= OFF
+MANUAL_SUBMODULES ?= ON
 
 dotgit=$(shell ls -d .git/config)
 ifeq ($(dotgit), .git/config)
